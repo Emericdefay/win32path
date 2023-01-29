@@ -1,6 +1,6 @@
 <p align="center">
   <a href="" rel="noopener">
- <img width=200px height=200px src="https://i.imgur.com/6wj0hh6.jpg" alt="logo"></a>
+ <img width=200px height=200px src="./com/logo.png" alt="logo"></a>
 </p>
 
 <h3 align="center">Win32Path library</h3>
@@ -50,13 +50,13 @@ Here is a list of each class and method, along with their docstrings in English:
 ### Installing
 
 ```
-pip install https://github.com/Emericdefay/win32path
+pip install git+https://github.com/Emericdefay/win32path
 ```
 
-or
+or inside the `requirements.txt` :
 
 ```
-python -m pip install https://github.com/Emericdefay/win32path
+git+https://github.com/Emericdefay/win32path
 ```
 
 ## 🎈 Usage <a name="usage"></a>
